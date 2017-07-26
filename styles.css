@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Montserrat:700|Zilla+Slab|Roboto+Slab');
+
+html {
+  font-family: 'Zilla Slab', sans-serif;
+
+}
+
+.nav {
+  display: flex;
+  padding: 0;
+  justify-content: flex-end;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav--item {
+  display: block;
+  padding: 5px;
+}
+
+.nav--item > a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+}*/
+
+#greeting {
+  text-transform: uppercase;
+}
+
+div {
+/*  border: 1px dashed gray;
+*/}
+
+.main {
+  max-width: 800px;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.experience {
+  margin-bottom: 25px;
+}
+
+.experience--header {
+  margin-left: 120px;
+}
+
+.experience--readMore {
+  /*margin-left: 120px;*/
+  /*padding-bottom: 50px;*/
+}
+
+.experience--title {
+  margin: 0;
+}
+.experience--employmentDetails {
+  margin: 0;
+}
+
+.experience--details {
+  display: flex;
+  align-items: center;
+}
+
+.experience--img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+.tinted {
+  filter: sepia(100%);
+}
+
+ul {
+  /*padding: 10px;*/
+}
+/*ul1 {
+  background: rgba(0,0,0,0);
+  font-family: 'Zilla Slab', serif;
+  font-size: 18px;
+  margin: 0px 0px 0px 0px;
+  display: block;
+  max-width: 1000px;
+  list-style: none;
+}
+*/
+/*li1 {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}*/
+.aboutMe, .experience {
+  max-width: 1000px;
+  font-family: 'Zilla Slab';
+}
+@media (max-width: 500px) {
+  .experience--header {
+    margin: 0;
+    text-align: center;
+  }
+  .experience--details {
+    flex-direction: column;
+  }
+}

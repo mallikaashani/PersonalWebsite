@@ -1,183 +1,155 @@
 <!DOCTYPE html>
 <head>
-  <link href="/normalize.css" rel="stylesheet">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Montserrat:700|Zilla+Slab|Roboto+Slab');
-    header {
-      text-align: left;
-      background-size: cover;
-      color: black;
-    }
-    a {
-      color: black;
-      text-decoration: none;
-    }
-    h1 {
-      font-size: 36px;
-      padding: 10px 0px 0px 100px;
-      font-family: 'Montserrat', sans-serif;
-      text-align: left;
-    }
-    h2{
-      text-align: left;
-      padding: 0px 0px 0px 150px;
-      font-size: 24px;
-      font-family: 'Zilla Slab', serif;
-    }
-    h3 {
-      font-family: 'Zilla Slab', serif;
-      font-style: italic;
-      text-align: left;
-      padding: 0px 0px 0px 160px;
-      font-size: 20px;
-    }
-    p {
-      font-family: 'Zilla Slab', serif;
-      font-size: 18px;
-      max-width: 1000px;
-      padding-bottom: 100px;
-      margin: 0 auto;
-      /*background: url("https://scontent-lax3-2.xx.fbcdn.net/v/t34.0-12/19970677_1421266734625206_1051839188_n.jpg?oh=315167ec0b4ee0a08437a80b963c8ee5&oe=59669D48");*/
-    }
-    img {
-      height: 200px;
-      border-radius: 50%;
-    }
-    ul {
-      padding: 10px;
-      background: rgba(0,0,0,0);
-      text-align: right;
-      font-family: 'Montserrat', sans-serif;
-      margin: 50px 10px 10px 10px;
-    }
-    ul1 {
-      background: rgba(0,0,0,0);
-      font-family: 'Zilla Slab', serif;
-      font-size: 18px;
-      margin: 0px 0px 0px 0px;
-      display: block;
-      max-width: 1000px;
-      list-style: none;
-    }
-    li1 {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    article {
-      max-width: 1000px;
-      padding: 20px;
-      margin: 0 auto;
-      font-family: 'Zilla Slab';
-    }
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-        text-align: left;
-      }
-      li {
-        padding: 5px;
-        display: block;
-        margin-right: 110px;
-      }
-    }
-  </style>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    
-    <ul>
-      <li1><a href="HomePage.html">WORK</a></li1>
-      <li1><a href="AboutPage.html">ABOUT</a></li1>
-      <li1><a href="#">BLOG</a></li1>
-    </ul>
+  <main class="main">
+    <div>
 
-    <!-- <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t34.0-12/19904552_1419370551481491_1676606538_n.png?oh=c9666551769dbaab5aab6d85d11a8808&oe=59666889"> -->
-    <h1>HI! I'M MALLIKA</h1>
-    <p>I'm a recent Cal graduate who studied Cognitive Science with an emphasis in Computer Science and Entrepreneurship in Technology. I'm excited about opportunities in product management, consulting, strategy, and analytics. I'm interested in the intersection of business, engineering, and design.</p>
-  </header>
+      <nav>
+        <ul class="nav">
+          <li class="nav--item"><a href="HomePage.html">work</a></li>
+          <li class="nav--item"><a href="AboutPage.html">about</a></li>
+          <li class="nav--item"><a href="#">blog</a></li>
+        </ul>
+      </nav>
 
-  <h1>EXPERIENCE</h1>
+      <!-- <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t34.0-12/19904552_1419370551481491_1676606538_n.png?oh=c9666551769dbaab5aab6d85d11a8808&oe=59666889"> -->
+      <h1 id="greeting">Hi! I'm Mallika</h1>
+      <p>I'm a recent Cal graduate who studied Cognitive Science with an emphasis in Computer Science and Entrepreneurship in Technology. I'm excited about opportunities in product management, consulting, strategy, and analytics. I'm interested in the intersection of business, engineering, and design.</p>
+    </div>
 
-  <article>
-    <h2>Product/Program Management Intern</h2>
-    <h3>Intuit, Summer 2016</h3>
-    <img src="https://www.drupal.org/files/project-images/Intuit_Profile_Image.jpg" style="height:100px;width:100px;border-radius:50%;float: left;margin:5px 40px 20px 20px;vertical-align:middle;">
-    <ul1>
-    	<li>&#9679 Identified a set of metrics for measuring success towards Intuit’s goal of creating one online financial identity for its users by gaining insights from engineers, analysts, and product/program managers</li>
-		<li>&#9679 Created a dashboard that will be used by the Identity team and the SVP of Core Services to enable data-driven decision making and track progress towards this goal</li>
-		<li>&#9679 Helped the HR department redesign Intuit’s Careers site by building prototypes and conducting user testing</li>
-    </ul1>
-  </article>
+    <h1>EXPERIENCE</h1>
 
-  <article>
-   <h2>Technology Consulting Analyst Intern</h2>
-    <h3>Accenture, Summer 2015</h3>
-    <img src="http://blythemcgarvie.com/wp-content/uploads/2016/10/AAEAAQAAAAAAAAMXAAAAJGNkMDhiZmIwLTgwMzYtNDcxYS05ZTlmLTkyY2MzYjVkMjdkOQ.png" style="height:100px;width:100px;border-radius:50%;float:left;margin:5px 40px 20px 20px;vertical-align:middle;">
-    <ul1>
-    	<li>&#9679 Wrote and executed test scripts for the search functionality on a custom application developed to improve and increase efficiency in client processes</li>
-		<li>&#9679 Authored requirements documents and decks on a supply chain management team for various stakeholders including account management, client leadership, and a third party consulting firm on project</li>
-		<li>&#9679 Consolidated timelines and crucial information to coordinate IT teams working on supply chain related ERP systems to ensure development, testing, and maintenance runs smoothly</li>
-	</ul1>
-  </article>
+    <div class="experience">
+      <div class="experience--header">
+        <h2 class="experience-title">Product/Program Management Intern</h2>
+        <h3 class="experience--employmentDetails">Intuit, Summer 2016</h3>
+      </div>
+      <div class="experience--details">
+        <div>
+          <img class="experience--img" src="img/Intuit_Profile_Image.jpg">
+        </div>
+        <div>
+          <ul>
+            <li>Identified a set of metrics for measuring success towards Intuit’s goal of creating one online financial identity for its users by gaining insights from engineers, analysts, and product/program managers</li>
+            <li>Created a dashboard that will be used by the Identity team and the SVP of Core Services to enable data-driven decision making and track progress towards this goal</li>
+            <li>Helped the HR department redesign Intuit’s Careers site by building prototypes and conducting user testing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <article>
-  
-    <h2>Research Assistant</h2>
-    <h3>Haas School of Business, 2014</h3>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBvLvIxI3uXFWePyEZuSh4VSW9rusccRIA0IvpKUuwLzAqITMozA" style="height:100px;width:100px;border-radius:50%;float:left;margin:5px 40px 20px 20px;vertical-align:middle;">
-    <ul1>
-    	<li>&#9679 Analyzed existing research on various topics within behavioral psychology to generate new research questions at Professor Don Moore’s lab</li>
-    	<li>&#9679 Designed in-person and computer-administered experiments- including creating participant interfaces and developing a research protocol for my team to follow for conducting a study which had over 150 participants</li>
-    </ul1>
-  </article>
+    <div class="experience">
+      <div class="experience--header">
+        <h2 class="experience-title">Technology Consulting Analyst Intern</h2>
+        <h3 class="experience--employmentDetails">Accenture, Summer 2015</h3>
+      </div>
+      <div class="experience--details">
+        <div>
+          <img class="experience--img" src="img/Acn_pic.png">
+        </div>
+        <div>
+          <ul>
+            <li>Wrote and executed test scripts for the search functionality on a custom application developed to improve and increase efficiency in client processes</li>
+            <li>Authored requirements documents and decks on a supply chain management team for various stakeholders including account management, client leadership, and a third party consulting firm on project</li>
+            <li>Consolidated timelines and crucial information to coordinate IT teams working on supply chain related ERP systems to ensure development, testing, and maintenance runs smoothly</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <article>
-    <h2>Marketing and Operations Intern</h2>
-    <h3>Back to the Roots, Summer 2014</h3>
-    <img src="https://s-media-cache-ak0.pinimg.com/736x/90/38/67/903867f7e7bda1a8dd16fbaf06d30f23.jpg" style="height:100px;width:100px;border-radius:50%;float: left;margin:5px 40px 20px 20px;vertical-align:middle;">
-    <ul1>
-    	<li>&#9679 Increased cost efficiency for packaging of the Water Garden product by outsourcing processes and negotiating terms, resulting in $45k+ in savings on the order</li>
-    	<li>&#9679 Helped rebrand the Water Garden product and kept the company website updated</li>
-    	<li>&#9679 Developed a social media strategy based on data insights for the company’s Facebook, Twitter, and Instagram accounts to increase customer engagement</li>
-    </ul1>
-  </article>
+    <div class="experience">
+      <div class="experience--header">
+        <h2 class="experience-title">Research Assistant</h2>
+        <h3 class="experience--employmentDetails">Haas School of Business, 2014</h3>
+      </div>
+      <div class="experience--details">
+        <div>
+          <img class="experience--img" src="img/Haas.png">
+        </div>
+        <div>
+          <ul><li>Analyzed existing research on various topics within behavioral psychology to generate new research questions at Professor Don Moore’s lab</li>
+          <li>Designed in-person and computer-administered experiments- including creating participant interfaces and developing a research protocol for my team to follow for conducting a study which had over 150 participants</li>intenance runs smoothly</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <article>
-    <h2>Business Development Intern</h2>
-    <h3>Silicon Valley Capital Management, Summer 2014</h3>
-    <img src="https://s3-media1.fl.yelpcdn.com/bphoto/EEaNO0I8yKRQrmhCBoqnpg/ls.jpg" style="height:100px;width:100px;border-radius:50%;float: left;margin:5px 40px 20px 20px;vertical-align:middle;">
-    <ul1>
-    	<li>&#9679 Developed a database of potential clients based on market research and contacted them to introduce the services of the firm</li>
-    	<li>&#9679 Analyzed the stock market and various industry trends to present stock pitches to the Managing Director of the firm</li>
-    </ul1>
-  </article>
+    <div class="experience">
+      <div class="experience--header">
+        <h2 class="experience-title">Marketing and Operations Intern</h2>
+        <h3 class="experience--employmentDetails">Back to the Roots, Summer 2014</h3>
+      </div>
+      <div class="experience--details">
+        <div>
+          <img class="experience--img" src="img/WaterGarden.jpg">
+        </div>
+        <div>
+          <ul><li>Increased cost efficiency for packaging of the Water Garden product by outsourcing processes and negotiating terms, resulting in $45k+ in savings on the order</li>
+          <li>Helped rebrand the Water Garden product and kept the company website updated</li>
+          <li>Developed a social media strategy based on data insights for the company’s Facebook, Twitter, and Instagram accounts to increase customer engagement</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <h1>LEADERSHIP</h1>
-    <article>
-    <h2>President</h2>
-    <h3>Toastmasters on Campus</h3>
-    <img src="https://www.toastmasters.org/content/images/globals/toastmasters-logo@2x.png" style="height:100px;width:110px;border-radius:50%;float: left;margin:5px 40px 20px 20px;vertical-align:middle;">
-    <ul1>
-      <li>&#9679 Helped coordinate club meetings, contests, and special events</li>
-      <li>&#9679 Mentored fellow members by sharing speechwriting and public speaking techniques</li>
-    </ul1>
-  </article>
+    <div class="experience">
+      <div class="experience--header">
+        <h2 class="experience-title">Business Development Intern</h2>
+        <h3 class="experience--employmentDetails">Silicon Valley Capital Management, Summer 2014</h3>
+      </div>
+      <div class="experience--details">
+        <div>
+          <img class="experience--img" src="img/svcm.jpg">
+        </div>
+        <div>
+          <ul><li> Developed a database of potential clients based on market research and contacted them to introduce the services of the firm</li>
+          <li>Analyzed the stock market and various industry trends to present stock pitches to the Managing Director of the firm</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <article>
-    <h2>Director of Information Technology</h2>
-    <h3>Berkeley Business Society</h3>
-    <img src="http://static1.squarespace.com/static/5695fa091115e0e4e3055b57/t/56a8ad979cadb6527b4e98f8/1486427386128/?format=1500w" style="height:100px;width:100px;border-radius:50%;float: left;vertical-align:middle;margin:5px 40px 20px 20px;">
-    <ul1>
-      <li>&#9679 Revamped berkeleybusinesssociety.com and digitized the application process to increase convenience and efficiency</li>
-      <li>&#9679 Extended networking and mentoring opportunities to members through guest speakers, panels, and workshops</li>
-    </ul1>
-  </article>
 
-  <h1>AWARDS</h1>
+    <h1>LEADERSHIP</h1>
 
-  <ul1>
-    <li>Highest Scoring Decathlete</li>
-  </ul1>
+    <div class="experience">
+      <div class="experience--header">
+        <h2 class="experience-title">President</h2>
+        <h3 class="experience--employmentDetails">Toastmasters on Campus, 2016-2017</h3>
+      </div>
+      <div class="experience--details">
+        <div>
+          <img class="experience--img" src="img/toastmasters-logo.png">
+        </div>
+        <div>
+          <ul><li>Helped coordinate club meetings, contests, and special events</li>
+        <li>Mentored fellow members by sharing speechwriting and public speaking techniques</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
+    <div class="experience">
+      <div class="experience--header">
+        <h2 class="experience-title">Director of Information Technology</h2>
+        <h3 class="experience--employmentDetails">Berkeley Business Society, Spring 2014</h3>
+      </div>
+      <div class="experience--details">
+        <div>
+          <img class="experience--img" src="img/bbs.png">
+        </div>
+        <div>
+          <ul><li>Revamped berkeleybusinesssociety.com and digitized the application process to increase convenience and efficiency</li>
+        <li>Extended networking and mentoring opportunities to members through guest speakers, panels, and workshops</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
 </body>

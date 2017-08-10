@@ -1,20 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Montserrat:700|Zilla+Slab|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Montserrat:700|Zilla+Slab|Roboto+Slab|Comfortaa');
+
 
 html {
-  font-family: 'Zilla Slab', sans-serif;
+  font-family: 'Roboto Slab', cursive;
+}
 
+@font-face {
+  font-family: 'Pier';
+  src: url(PierSans-Light.otf);
+}
+
+.logo--img {
+  height: 100px;
+  margin: auto;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Roboto Slab';
 }
 
 .nav {
   display: flex;
-  padding: 0;
-  justify-content: flex-end;
-  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  font-family: 'Comfortaa';
+  font-size: 20px;
 }
 
 .nav--item {
   display: block;
-  padding: 5px;
+  padding-left: 45px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .nav--item > a {
@@ -22,22 +45,32 @@ html {
   text-transform: uppercase;
 }
 
+.work--header {
+  display: flex;
+  align-items: center;
+}
+.summary {
+  max-width: 400px;
+}
+
+.mallika--img {
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 25px;
+  padding-left: 50px;
+}
+
 h1 {
   font-size: 36px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  font-weight: bold;
 }
-
-/*h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-style: italic;
-  font-size: 20px;
-}*/
 
 #greeting {
   text-transform: uppercase;
+  text-align: center;
 }
 
 div {
@@ -52,6 +85,7 @@ div {
 
 .experience {
   margin-bottom: 25px;
+  font-family: 'Comfortaa';
 }
 
 .experience--header {
@@ -82,19 +116,11 @@ div {
   padding: 10px;
 }
 
-.mallika--img {
-  height:200px;
-  width: 200px;
-  border-radius: 50%;
-  margin: auto;
-  display: block;
-  padding: 10px;
-}
-
 .about--img {
-  height: 525px;
-  margin: auto;
+  width: 800px;
   display: block;
+  margin: auto;
+  padding-bottom: 50px;
 }
 
 .tinted {
@@ -120,7 +146,7 @@ ul {
 }*/
 .aboutMe, .experience {
   max-width: 1000px;
-  font-family: 'Zilla Slab';
+  font-family: 'Roboto Slab';
 }
 @media (max-width: 500px) {
   .experience--header {
